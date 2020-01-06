@@ -1,0 +1,709 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Copy of Copy of Copy of Copy of Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rajyalakshmi522/Raptor/blob/master/colab%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "5fCEDCU_qrC0"
+      },
+      "source": [
+        "<p><img alt=\"Colaboratory logo\" height=\"45px\" src=\"/img/colab_favicon.ico\" align=\"left\" hspace=\"10px\" vspace=\"0px\"></p>\n",
+        "\n",
+        "<h1>Welcome to Colaboratory!</h1>\n",
+        "\n",
+        "\n",
+        "Colaboratory is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.\n",
+        "\n",
+        "With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Vdv2fC7UrpRB",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xz3cvvzWyHsO",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "GJBs_flRovLc"
+      },
+      "source": [
+        "## Getting Started\n",
+        "\n",
+        "The document you are reading is a  [Jupyter notebook](https://jupyter.org/), hosted in Colaboratory. It is not a static page, but an interactive environment that lets you write and execute code in Python and other languages.\n",
+        "\n",
+        "For example, here is a **code cell** with a short Python script that computes a value, stores it in a variable, and prints the result:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab_type": "code",
+        "id": "xitplqMNk_Hc",
+        "colab": {}
+      },
+      "source": [
+        "#@title Introducing Colaboratory { display-mode: \"form\" }\n",
+        "#@markdown This 3-minute video gives an overview of the key features of Colaboratory:\n",
+        "from IPython.display import YouTubeVideo\n",
+        "YouTubeVideo('inN8seMm7UI', width=600, height=400)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab_type": "code",
+        "id": "gJr_9dXGpJ05",
+        "colab": {}
+      },
+      "source": [
+        "seconds_in_a_day = 24 * 60 * 60\n",
+        "seconds_in_a_day"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "2fhs6GZ4qFMx"
+      },
+      "source": [
+        "To execute the code in the above cell, select it with a click and then either press the play button to the left of the code, or use the keyboard shortcut \"Command/Ctrl+Enter\".\n",
+        "\n",
+        "All cells modify the same global state, so variables that you define by executing a cell can be used in other cells:"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab_type": "code",
+        "id": "-gE-Ez1qtyIA",
+        "colab": {}
+      },
+      "source": [
+        "seconds_in_a_week = 7 * seconds_in_a_day\n",
+        "seconds_in_a_week"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "lSrWNr3MuFUS"
+      },
+      "source": [
+        "For more information about working with Colaboratory notebooks, see [Overview of Colaboratory](/notebooks/basic_features_overview.ipynb).\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "-Rh3-Vt9Nev9"
+      },
+      "source": [
+        "## More Resources\n",
+        "\n",
+        "Learn how to make the most of Python, Jupyter, Colaboratory, and related tools with these resources:\n",
+        "\n",
+        "### Working with Notebooks in Colaboratory\n",
+        "- [Overview of Colaboratory](/notebooks/basic_features_overview.ipynb)\n",
+        "- [Guide to Markdown](/notebooks/markdown_guide.ipynb)\n",
+        "- [Importing libraries and installing dependencies](/notebooks/snippets/importing_libraries.ipynb)\n",
+        "- [Saving and loading notebooks in GitHub](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)\n",
+        "- [Interactive forms](/notebooks/forms.ipynb)\n",
+        "- [Interactive widgets](/notebooks/widgets.ipynb)\n",
+        "- <img src=\"/img/new.png\" height=\"20px\" align=\"left\" hspace=\"4px\" alt=\"New\"></img>\n",
+        " [TensorFlow 2 in Colab](/notebooks/tensorflow_version.ipynb)\n",
+        "\n",
+        "### Working with Data\n",
+        "- [Loading data: Drive, Sheets, and Google Cloud Storage](/notebooks/io.ipynb) \n",
+        "- [Charts: visualizing data](/notebooks/charts.ipynb)\n",
+        "- [Getting started with BigQuery](/notebooks/bigquery.ipynb)\n",
+        "\n",
+        "### Machine Learning Crash Course\n",
+        "These are a few of the notebooks from Google's online Machine Learning course. See the [full course website](https://developers.google.com/machine-learning/crash-course/) for more.\n",
+        "- [Intro to Pandas](/notebooks/mlcc/intro_to_pandas.ipynb)\n",
+        "- [Tensorflow concepts](/notebooks/mlcc/tensorflow_programming_concepts.ipynb)\n",
+        "- [First steps with TensorFlow](/notebooks/mlcc/first_steps_with_tensor_flow.ipynb)\n",
+        "- [Intro to neural nets](/notebooks/mlcc/intro_to_neural_nets.ipynb)\n",
+        "- [Intro to sparse data and embeddings](/notebooks/mlcc/intro_to_sparse_data_and_embeddings.ipynb)\n",
+        "\n",
+        "### Using Accelerated Hardware\n",
+        "- [TensorFlow with GPUs](/notebooks/gpu.ipynb)\n",
+        "- [TensorFlow with TPUs](/notebooks/tpu.ipynb)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "colab_type": "text",
+        "id": "P-H6Lw1vyNNd"
+      },
+      "source": [
+        "## Machine Learning Examples: Seedbank\n",
+        "\n",
+        "To see end-to-end examples of the interactive machine learning analyses that Colaboratory makes possible, check out the [Seedbank](https://research.google.com/seedbank/) project.\n",
+        "\n",
+        "A few featured examples:\n",
+        "\n",
+        "- [Neural Style Transfer](https://research.google.com/seedbank/seed/neural_style_transfer_with_tfkeras): Use deep learning to transfer style between images.\n",
+        "- [EZ NSynth](https://research.google.com/seedbank/seed/ez_nsynth): Synthesize audio with WaveNet auto-encoders.\n",
+        "- [Fashion MNIST with Keras and TPUs](https://research.google.com/seedbank/seed/fashion_mnist_with_keras_and_tpus): Classify fashion-related images with deep learning.\n",
+        "- [DeepDream](https://research.google.com/seedbank/seed/deepdream): Produce DeepDream images from your own photos.\n",
+        "- [Convolutional VAE](https://research.google.com/seedbank/seed/convolutional_vae): Create a generative model of handwritten digits."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7x7Z7IpGdEbK",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "print(\"i\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "HsSbzk4Vd2I4",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "n=int(input(\"enter n value\"))\n",
+        "f=1\n",
+        "for i in range(1,n+1)\n",
+        "{\n",
+        "f=f*i\n",
+        "}\n",
+        "print(f)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "z9J74Ydgh9uU",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "print(\"s\")"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "uOunIdQiiHR2",
+        "colab_type": "code",
+        "outputId": "51f2dbea-23d3-4bc4-c65f-bcab11cbfd9b",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# factorial using for loop\n",
+        "n=int(input(\"enter n value\"))\n",
+        "f=1\n",
+        "for i in range(n,0,-1):   \n",
+        "  f=f*i\n",
+        "print(f)"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value5\n",
+            "120\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "I3Xrmk3H0lPt",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_17196wQksBy",
+        "colab_type": "code",
+        "outputId": "4fbd3fa5-9fa6-4fa5-d802-e69bbef3a73c",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "# factorial using module\n",
+        "import math\n",
+        "result=math.factorial(5)\n",
+        "print(result)"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "120\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "A0wvOnmymbNe",
+        "colab_type": "code",
+        "outputId": "3b500e5b-9f63-48a6-e285-10ac7bfb167e",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# factorial using recursion\n",
+        "def fact(n):\n",
+        "  if n==0:\n",
+        "    return 1\n",
+        "  else:\n",
+        "      return n*fact(n-1)\n",
+        "n=int(input(\"enter n value\"))            \n",
+        "result=fact(n)\n",
+        "print(result)\n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value5\n",
+            "120\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EvLAbZFZqB1T",
+        "colab_type": "code",
+        "outputId": "68e0c38e-513f-47cc-efd5-69275b6d3876",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# amstrong\n",
+        "n=int(input(\"enter n value\"))\n",
+        "temp=n\n",
+        "sum=0\n",
+        "num=len(str(n))\n",
+        "while n!=0:\n",
+        "  t=n%10\n",
+        "  sum=sum+t**num\n",
+        "  n=n//10\n",
+        "if sum==temp:\n",
+        "  print(\"am\")\n",
+        "else:\n",
+        "  print(\"not am\")    "
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value123\n",
+            "not am\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "r_ftH-Sl58Mu",
+        "colab_type": "code",
+        "outputId": "5400f661-7871-468d-bdec-c810426ece73",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# palindrome\n",
+        "n=int(input(\"enter n value\"))\n",
+        "temp=n\n",
+        "sum=0\n",
+        "while n!=0:\n",
+        "  d=n%10\n",
+        "  sum=sum*10+d\n",
+        "  n=n//10\n",
+        "if sum==temp:\n",
+        "  print(\"print palindrom\")\n",
+        "else:\n",
+        "  print(\"not palindrom\")    \n",
+        "\n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value121\n",
+            "print palindrom\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ubdQGYrVG_j8",
+        "colab_type": "code",
+        "outputId": "91f199bf-5a86-4108-f851-ff881ce0aede",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# perfect number\n",
+        "n=(int(input(\"enter n value\")))\n",
+        "sum=0\n",
+        "for i in range(1,n):\n",
+        "  if n%i==0:\n",
+        "    sum=sum+i\n",
+        "if sum==n:\n",
+        "  print(\"perfect\")\n",
+        "else:\n",
+        "  print(\"not perfect\")     \n",
+        "\n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value6\n",
+            "perfect\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "admSSKy0KE9k",
+        "colab_type": "code",
+        "outputId": "611bdaba-4465-4007-8927-698f7d415bf6",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "#prime number\n",
+        "n=int(input(\"enter n value\"))\n",
+        "for i in range(2,n):\n",
+        "  if n%i==0:\n",
+        "    print(\"not prime\")\n",
+        "    break\n",
+        "else:\n",
+        "    print(\"prime\")\n",
+        "\n",
+        "    "
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value60\n",
+            "not prime\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "v8saImRuQcPQ",
+        "colab_type": "code",
+        "outputId": "391f07b0-aff6-4923-89d4-309c8c80c8f6",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 122
+        }
+      },
+      "source": [
+        "# prime number using range \n",
+        "lower=int(input(\"enter lower value\"))\n",
+        "upper=int(input(\"enter upper value\"))\n",
+        "for num in range(lower,upper+1):\n",
+        "  for i in range(2,num):\n",
+        "    if num%i==0:\n",
+        "      break\n",
+        "  else:\n",
+        "    print(num)    \n",
+        "\n",
+        "     "
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter lower value5\n",
+            "enter upper value15\n",
+            "5\n",
+            "7\n",
+            "11\n",
+            "13\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9oVD-L0bSKDX",
+        "colab_type": "code",
+        "outputId": "1a7951e6-a8b2-444e-f905-429fd9970689",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 87
+        }
+      },
+      "source": [
+        "#factors\n",
+        "n=int(input(\"enter n value\"))\n",
+        "for i in range(1,n):\n",
+        "  if n%i==0:\n",
+        "    print(i)\n",
+        "   "
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value6\n",
+            "1\n",
+            "2\n",
+            "3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PY0J0Q-SUpE7",
+        "colab_type": "code",
+        "outputId": "9440195e-ae6c-4362-be44-8952aa46eaec",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 193
+        }
+      },
+      "source": [
+        "#tables\n",
+        "n=int(input())\n",
+        "for i in range(1,10):\n",
+        "  print(n,\"*\",i,\"=\",n*i)"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "5\n",
+            "5 * 1 = 5\n",
+            "5 * 2 = 10\n",
+            "5 * 3 = 15\n",
+            "5 * 4 = 20\n",
+            "5 * 5 = 25\n",
+            "5 * 6 = 30\n",
+            "5 * 7 = 35\n",
+            "5 * 8 = 40\n",
+            "5 * 9 = 45\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Nqi80yErU6P8",
+        "colab_type": "code",
+        "outputId": "e271ef87-2018-4cee-f777-5a2ee80784dd",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 70
+        }
+      },
+      "source": [
+        "# linear search\n",
+        "def linearsearch(list,key):\n",
+        "  for i in range(0,len(list)):\n",
+        "    if key==list[i]:\n",
+        "      print(\"key is found\")\n",
+        "      break\n",
+        "  else:\n",
+        "    print(\"key is not found\")\n",
+        "list=[90,123,324,21,56]\n",
+        "print(list)\n",
+        "key=int(input(\"enter key value\"))\n",
+        "linearsearch(list,key)      \n"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[90, 123, 324, 21, 56]\n",
+            "enter key value21\n",
+            "key is found\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "kdd9JJZrdMZ3",
+        "colab_type": "code",
+        "outputId": "3fdbd3e2-4dc6-4999-8a3e-68b36864bf36",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 52
+        }
+      },
+      "source": [
+        "# strong number\n",
+        "n=int(input(\"enter n value\"))\n",
+        "temp=n\n",
+        "sum=0\n",
+        "while n!=0:\n",
+        "  f=1\n",
+        "  d=n%10\n",
+        "  for i in range(d,0,-1):\n",
+        "    f=f*i\n",
+        "  sum=sum+f\n",
+        "  n=n//10\n",
+        "if sum==temp:\n",
+        "  print(\"strong\")\n",
+        "else:\n",
+        "  print(\"not stromg\")  "
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter n value145\n",
+            "strong\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "d2ffbIYrp0hX",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
